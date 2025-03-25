@@ -29,8 +29,10 @@ class Trainer:
             
       def catch_pokemon(self, pokemon):
             if len(self.team) < 6:
+                  self.items["Pokeballs"] -= 1
                   self.team.append(pokemon)
                   print(f"{self.name} has capture a {pokemon.name}")
+                  print(f"{self.name} now has {self.items["Pokeballs"]} pokeballs left.")
             else:
                   print("you already have a full roster")
       
