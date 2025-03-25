@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class teste:
     def __init__(self, name):
         self.name = name
@@ -9,7 +8,7 @@ def __str__(self):
 viado = teste("Viado da bike")
 print(viado)
 print("olho do cu")
-=======
+
 class Pokemon:
       def __init__(self, name, type, hp, attack, defense, moves):
             self.name = name
@@ -57,5 +56,3 @@ if __name__ == "__main__":
       trainer.catch_pokemon(pokemon)
       trainer.show_roster()
       trainer.use_item("Potion")
-      
->>>>>>> aa1a69f (trainer and pokemon class FIXED)
